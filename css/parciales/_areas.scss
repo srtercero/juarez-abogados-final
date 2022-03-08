@@ -1,0 +1,48 @@
+.areas-titulo {
+
+    & h2 {
+        font-size: 2.3rem;
+        @include font-main;
+        color: $text-color;
+        line-height: 3rem;
+    }
+
+    & p {
+        font-size: 1.6rem;
+        color: $text-color;
+    }
+
+    & .somos {
+        color: $color-primary;
+        font-size: 3.3rem;
+    }
+
+    & .somos:after {
+        background-color: $color-primary;
+        content: "";
+        display: block;
+        height: 1px;
+        width: 36px;
+    }
+}
+
+
+
+.area-unica {
+    padding: 0px 30px;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+
+    .abg {
+        width: 100%;
+        max-width: 60px;
+    }
+
+}
+
+.dsk {
+    border-right: dashed 1px #c2c2c2;
+}

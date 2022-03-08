@@ -1,0 +1,22 @@
+.foto img {
+    width: 100%;
+    max-width: 200px;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.social img {
+    max-width: 30px;
+    opacity: 0.5;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    .social {
+        gap: 5px;
+    }
+}

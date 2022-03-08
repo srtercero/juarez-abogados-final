@@ -1,0 +1,116 @@
+a {
+    color: $color-secondary;
+    text-decoration: none;
+
+    &:hover {
+        color: #FFF;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    @include font-secondary;
+}
+
+h1 {
+    @include font-main;
+    font-size: 4.5rem;
+}
+
+h3 {
+    @include font-main;
+}
+
+.h3-b {
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.4rem;
+    color: $color-secondary;
+
+    &:hover,
+    &.active {
+        color: $color-primary;
+    }
+}
+
+
+.p-all {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*--Botones*/
+
+.btn-primary {
+    letter-spacing: 0.2pt;
+    font-size: 1.6rem;
+    background-color: $color-primary;
+    color: $color-secondary;
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+
+    &:active,
+    &:focus-visible,
+    &:active:focus {
+        background-color: #000;
+        color: #FFF;
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    &:hover {
+        background-color: #000;
+        color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        box-shadow: $color-primary 5px 5px 0px;
+        transition: 0.5s;
+    }
+}
+
+/* Animation Image*/
+
+.animate-image {
+    animation: fadeIn 5s;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(1.1);
+        animation: fadeIn 5s;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Animation Text*/
+.animation-text {
+    animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

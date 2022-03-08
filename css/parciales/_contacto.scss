@@ -1,0 +1,45 @@
+.margin-form {
+    margin: 120px 100px;
+}
+
+.form-control {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+
+.iconos__datos {
+
+    & p {
+        font-size: 1.6rem;
+        color: $text-color;
+        line-height: 2rem;
+    }
+
+    & h3 {
+        font-size: 1.8rem;
+        color: #000;
+        font-weight: 600;
+
+        &:after {
+            background-color: $color-primary;
+            margin-top: 3px;
+            margin-bottom: 5px;
+            content: "";
+            display: block;
+            height: 1px;
+            width: 36px;
+        }
+    }
+
+    & span {
+        color: $color-primary;
+    }
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: $color-primary;
+    outline: 0;
+    box-shadow: 0 0 1rem rgba($color: $color-primary, $alpha: 0.25);
+}

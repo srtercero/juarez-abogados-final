@@ -1,0 +1,17 @@
+@mixin font-main {
+    font-family: "Montserrat",
+        "Helvetica Neue",
+        sans;
+}
+
+@mixin font-secondary {
+    font-family: "Nunito Sans",
+        "Helvetica Neue",
+        sans;
+}
+
+@mixin bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

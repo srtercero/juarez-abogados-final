@@ -1,0 +1,61 @@
+@media screen and (max-width:768px) {
+    footer {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 330%;
+    }
+
+    .container {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .p-all {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .area-unica {
+        margin-top: 35px;
+        border: none;
+    }
+
+    .btm {
+        margin-top: 35px;
+    }
+
+    .foto img {
+        width: 150px;
+    }
+
+    .g-5,
+    .gx-5 {
+        --bs-gutter-x: 0;
+    }
+
+    .display-3 {
+        font-size: 3rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(26, 176, 153, 0.3);
+        border: 1px solid $color-primary;
+    }
+
+    .navbar-toggler {
+        border-radius: 50px;
+        background-color: $color-primary;
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .flex-form {
+        margin: 60px 0px;
+    }
+
+}

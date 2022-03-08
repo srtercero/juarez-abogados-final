@@ -1,0 +1,50 @@
+/*--Hero home--*/
+
+.hero-image {
+    background-image: url('../images/palace.jpeg');
+    height: 80vh;
+    @include bg-cover;
+
+    & .row {
+        height: 80vh;
+    }
+
+    .mask-hero {
+        background-color: rgba(24, 51, 87, 0.8);
+        height: 80vh
+    }
+
+}
+
+.lead {
+    font-size: 1.8rem;
+}
+
+/*--Banner páginas internas--*/
+
+.hero-banner {
+    background-image: url('../images/palace.jpeg');
+    height: 23vh;
+    @include bg-cover;
+
+    & .row {
+        height: 23vh;
+    }
+
+    .mask-banner {
+        background-color: rgba(24, 51, 87, 0.8);
+        height: 23vh;
+    }
+}
+
+/*--Sombra de imagen bienvenida*/
+
+.sh-img {
+    box-shadow: $color-primary 10px 10px 0px;
+    transition: transform .5s;
+    transition: width 2s;
+}
+
+.g-all {
+    --bs-gutter-x: 6rem;
+}

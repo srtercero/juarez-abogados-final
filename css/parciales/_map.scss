@@ -1,0 +1,6 @@
+$colores:(color:$color-primary,
+);
+
+.area-resaltado {
+    color: map-get($colores, color);
+}

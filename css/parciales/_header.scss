@@ -1,0 +1,39 @@
+.container {
+
+    .navbar {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .active,
+        .btn:hover {
+            color: $color-primary;
+        }
+
+        & ul {
+            display: flex;
+
+        }
+
+        & ul li {
+            margin: 20px;
+            font-size: 1.6rem;
+            list-style: none;
+            letter-spacing: 0.2pt;
+        }
+
+        & ul li a {
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: $color-secondary;
+        }
+
+        & ul li :hover {
+            color: $color-primary;
+        }
+    }
+}

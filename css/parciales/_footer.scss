@@ -1,0 +1,12 @@
+footer {
+    background-color: #3c3c3b;
+    font-size: 1.3rem;
+
+    a {
+        color: #FFF;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.rounded-circle {
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.border--verde {
+    @extend .rounded-circle;
+    border: solid 1px $color-primary;
+}
+
+.border--azul {
+    @extend .rounded-circle;
+    border: solid 1px $color-secondary;
+}
